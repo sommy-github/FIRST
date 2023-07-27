@@ -1,0 +1,274 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+   font-family: Arial, Helvetical, sans-serif;
+   background: #000;
+   color: #000;
+}
+
+h1, h2, h3, h4{
+  color: #fffdfd;
+}
+
+p{
+  color: #fff;
+}
+
+a{
+  color: #fff;
+  text-decoration: none;
+
+}
+
+li{
+  color: #fff;
+}
+
+.head-top {
+  width: 100%;
+  height: 93vh;
+  background: url('netlify.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: inset 220px 100px 250px #000000;
+  border-bottom: 5px grey solid;
+}
+
+.net-sign {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 30px;
+  
+}
+
+.main-body{
+  position: relative;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 9rem;
+  
+}
+.main-body h1{
+  font-weight: 700;
+  font-size: 3.0rem;
+  line-height: 1.1;
+  margin: 0 0 1rem;
+}
+
+.main-body p{
+font-weight: 400;
+font-size: 1.9rem;
+line-height: 1.2;
+margin: 0 0 1rem;
+
+}
+
+.bttn {
+   background: rgb(255,0,0);
+   color: #fff;
+   text-align: center;
+   height: 30px;
+   width: 75px;
+   padding: 2px;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+   outline: none;
+
+}
+.bttn:hover{
+  opacity: 0.9;
+}
+
+.input{
+  background:rgb(32, 32, 32);
+  color: grey;
+  height: 40px;
+  width: 350px;
+  padding: 10px;
+  border: none;
+  outline: solid 1px;
+  border-radius: 5px;
+}
+.btn{
+  background: rgb(255,0,0);
+   color: #fff;
+   text-align: center;
+   height: 40px;
+   width: 150px;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+   outline: none;
+}
+.btn:hover{
+  opacity: 0.9;
+}
+
+.second-div{
+  position: relative;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 3rem;
+  border-bottom: 5px solid grey;
+}
+
+.second-div h1{
+  font-size: 50px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.third-div{
+  position: relative;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 3rem;
+  border-bottom: 5px solid grey;
+}
+
+.third-div h1{
+  font-size: 50px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.fourth-div{
+  position: relative;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 3rem;
+  border-bottom: 5px solid grey;
+}
+
+.fourth-div h1{
+  font-size: 100px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.fourth-div p{
+  font-size: 50px;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+.fiveth-div{
+  position: relative;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 3rem;
+  border-bottom: 5px solid grey;
+}
+
+.fiveth-div h1{
+  font-size: 50px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.faq{
+  padding: 10px 12px;
+  text-align: center;
+  font-size: 18px;
+  border-bottom: 5px solid grey;
+}
+.faq h2{
+  font-weight: 500;
+  font-size: 40px;
+
+}
+
+.options{
+  margin: 60px auto;
+  width: 100%;
+  max-width: 750px;
+}
+
+.options li{
+  list-style: none;
+  width: 100%;
+  padding: 5px;
+}
+
+.options li label{
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  font-size: 18px;
+  font-weight: 500;
+  background: #303030;
+  margin-bottom: 2px;
+  cursor: pointer;
+  position: relative;
+
+}
+
+label::after{
+  content: '+';
+  font-size: 34px;
+  right: 20px;
+  position: absolute;
+}
+
+input[type='text']{
+  display: none;
+}
+
+.faq p{
+  margin-bottom: 10px;
+}
+
+.footer{
+   padding: 50px 25px 10px;
+}
+
+.footer h2{
+  text-decoration-line: underline;
+  margin-bottom: 15px;
+  color: #777;
+
+}
+
+.footer .footer-div{
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+.footer .list7 a{
+  display: block;
+  text-decoration: underline;
+  color: #777;
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.footer-end p{
+  margin-top: 10px;
+ 
+}
+
+ 
+
